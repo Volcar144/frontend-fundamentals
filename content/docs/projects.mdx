@@ -1,0 +1,129 @@
+---
+title: Projects
+description: Five hands-on projects to apply everything you've learned — from a TypeScript CLI to a full-stack app.
+---
+
+Apply everything you've learned with these five projects, ordered by complexity.
+
+---
+
+## Project 1 — TypeScript Todo CLI
+
+**Skills:** TypeScript, interfaces, generics, utility types
+
+Build a command-line todo list app using Node.js + TypeScript.
+
+### Requirements
+
+- `Todo` interface with `id`, `title`, `completed`, `createdAt`
+- CRUD functions: `addTodo`, `toggleTodo`, `deleteTodo`, `listTodos`
+- Filter by status using a generic `filter<T>` function
+- Save/load from a JSON file
+
+### Bonus
+
+- Use `zod` for runtime validation
+- Add due dates and priority levels
+
+---
+
+## Project 2 — Tailwind Component Library
+
+**Skills:** Tailwind CSS, responsive design, dark mode
+
+Build a set of reusable UI components using HTML + Tailwind.
+
+### Components to build
+
+- [ ] Button (primary, secondary, ghost, destructive, loading state)
+- [ ] Badge / Chip
+- [ ] Card (with image, title, description, footer)
+- [ ] Input / Textarea (with label, error, and helper text states)
+- [ ] Modal / Drawer
+- [ ] Navigation bar (responsive with mobile menu)
+- [ ] Skeleton loader
+- [ ] Toast notification
+
+### Requirements
+
+- Mobile-first responsive
+- Dark mode support
+- All interactive states (hover, focus, active, disabled)
+
+---
+
+## Project 3 — UX/UI Redesign Exercise
+
+**Skills:** UX/UI principles, Figma or HTML/CSS
+
+Take an existing bad-UX form and redesign it applying all 8 principles.
+
+### The challenge
+
+Fix these issues in a broken registration form:
+
+1. Poor visual hierarchy
+2. Missing labels (placeholder-only inputs)
+3. No feedback states (error, success, loading)
+4. Inaccessible colour contrast
+5. No keyboard navigation support
+6. No empty/error states
+
+### Deliverable
+
+- Before & after screenshots
+- Annotated design decisions
+- WCAG contrast ratio verification
+
+---
+
+## Project 4 — Next.js Blog
+
+**Skills:** Next.js App Router, TypeScript, Tailwind, SEO
+
+Build a full blog with Markdown posts, dynamic routes, and SEO.
+
+### Requirements
+
+- Home page with post list and pagination
+- `/blog/[slug]` dynamic route for each post
+- Markdown rendering (`next-mdx-remote` or `gray-matter` + `remark`)
+- ISR — revalidate every 60 seconds
+- Full SEO: `generateMetadata`, Open Graph tags
+- Dark mode toggle
+- Responsive layout
+
+### Bonus
+
+- Search / filter posts by tag
+- Estimated reading time
+- Table of contents sidebar
+
+---
+
+## Project 5 — Full-Stack Task Manager
+
+**Skills:** All four — TypeScript, Tailwind, UX/UI, Next.js + API Routes
+
+Build a full-stack task management app.
+
+### Features
+
+- Auth (next-auth or Clerk)
+- Create, edit, delete tasks
+- Labels, due dates, priority levels
+- Drag-and-drop Kanban board
+- REST API with proper status codes and validation
+- Database: SQLite via Prisma or Supabase
+- Fully typed end-to-end
+- Mobile-first, accessible UI
+
+### Suggested stack
+
+```bash
+next@latest + typescript + tailwindcss
+prisma + sqlite   # or @supabase/supabase-js
+next-auth         # authentication
+@dnd-kit/core     # drag and drop
+zod               # validation
+```

@@ -1,0 +1,11 @@
+{
+  "title": "Frontend Fundamentals",
+  "pages": [
+    "index",
+    "typescript",
+    "tailwind",
+    "ux-ui",
+    "nextjs",
+    "projects"
+  ]
+}

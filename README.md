@@ -1,45 +1,31 @@
 # 🚀 Frontend Fundamentals
 
-> A complete learning resource covering **TypeScript**, **Tailwind CSS**, **UX/UI Design**, and **Next.js** — from zero to production-ready.
+A Fumadocs documentation website covering **TypeScript**, **Tailwind CSS**, **UX/UI Design**, and **Next.js**.
 
----
+## Getting started
 
-## 📚 Table of Contents
-
-- [TypeScript Basics](./docs/typescript.md)
-- [Tailwind CSS](./docs/tailwind.md)
-- [UX/UI Design Principles](./docs/ux-ui.md)
-- [Next.js](./docs/nextjs.md)
-- [Projects](./docs/projects.md)
-
----
-
-## 🗂️ Repository Structure
-
-```
-frontend-fundamentals/
-├── docs/
-│   ├── typescript.md
-│   ├── tailwind.md
-│   ├── ux-ui.md
-│   ├── nextjs.md
-│   └── projects.md
-├── examples/
-│   ├── typescript/
-│   ├── tailwind/
-│   └── nextjs/
-└── README.md
+```bash
+npm install
+npm run dev
 ```
 
-## 🔗 Resources
+Open [http://localhost:3000](http://localhost:3000).
 
-| Topic | Link |
-|---|---|
-| TypeScript Docs | https://www.typescriptlang.org/docs |
-| Tailwind Docs | https://tailwindcss.com/docs |
-| Next.js Docs | https://nextjs.org/docs |
-| React Docs | https://react.dev |
-| Figma | https://figma.com |
+## Stack
 
-## 📜 Licence
-MIT
+- [Next.js 15](https://nextjs.org)
+- [Fumadocs](https://fumadocs.vercel.app)
+- [Tailwind CSS](https://tailwindcss.com)
+- [TypeScript](https://typescriptlang.org)
+
+## Structure
+
+```
+content/docs/     ← MDX documentation files
+src/app/          ← Next.js App Router pages
+src/lib/source.ts ← Fumadocs source loader
+```
+
+## Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Volcar144/frontend-fundamentals)
