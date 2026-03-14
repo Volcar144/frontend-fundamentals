@@ -1,13 +1,2 @@
-const { createPreset } = require('fumadocs-ui/tailwind-plugin');
-
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  darkMode: 'class',
-  content: [
-    './src/**/*.{ts,tsx,mdx}',
-    './content/**/*.mdx',
-    './node_modules/fumadocs-ui/dist/**/*.js',
-    './node_modules/fumadocs-core/dist/**/*.js',
-  ],
-  presets: [createPreset()],
-};
+// Tailwind v4 uses CSS-first config — no JS config needed.
+// All config lives in src/app/globals.css.
