@@ -1,5 +1,3 @@
-const { createPreset } = require('fumadocs-ui/tailwind-plugin');
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -11,5 +9,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  presets: [createPreset()],
+  // fumadocs-ui v15 dropped the tailwind-plugin export.
+  // Theming is handled via CSS variables imported in globals.css.
 };

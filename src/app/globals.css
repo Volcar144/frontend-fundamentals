@@ -1,3 +1,6 @@
+/* fumadocs-ui v15: import the theme CSS directly */
+@import 'fumadocs-ui/style.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
